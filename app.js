@@ -30,10 +30,10 @@ app.post('/', async (req, res) => {
     var url = req.body.url;
     if (!ytdl.validateURL(url)) {
         switch(url) {
-            case "Evelina":
+            case "Eve":
                 C = "0"
                 break
-            case "Dovilius":
+            case "Dov":
                 C = "1"
                 break
 
