@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(320deg, blue, purple, yellow);
+    background-size: 300% 300%;
+    background-color: purple;
+    animation: background_color 20s ease-in-out infinite;
+}
+
+.mainWin{
+    height: 140px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    border: solid rgba(255, 255, 255, 0.1) 2px;
+    padding: 20px;
+}
+
+#vidTitle{
+    color: white;
+    text-align: center;
+    font-size: 17;
+    width: 475px;
+    margin: auto;
+}
+
+#linkBox{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: rgba(255, 255, 255, 0);
+    padding-left: 10px;
+    transition: 0.5s;
+    outline: none;
+    color: green;
+    font-size: 16;
+}
+
+#linkBox:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#searchIMG{
+    height: 40px;
+    width: 40px;
+}
+
+#searchButton{
+    width: 70px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 5;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: rgba(255, 255, 255, 0);
+    transition: 0.5s;
+    overflow: hidden;
+    position: absolute;
+}
+
+#searchButton:hover{
+    background-color: rgba(255, 100, 0, 0.4);
+}
+
+#searchButton:active{
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#downButton{
+    width: 475px;
+    margin-left: 12px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    margin-top: -11px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: rgba(255, 255, 255, 0);
+    transition: 0.5s;
+    font-size: 17;
+}
+
+#downButton:hover{
+    background-color: rgba(255, 100, 0, 0.4);
+    color: black;
+}
+
+#downButton:active{
+    background-color: rgba(255, 0, 0, 1);
+}
+
+@keyframes background_color {
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%}
+    100% {background-position: 0% 50%}
+}
